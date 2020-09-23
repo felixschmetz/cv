@@ -1,0 +1,149 @@
+body {
+  background-color: #f7f7f7;
+  margin:0px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  color: #404040;
+  text-align: center;
+}
+
+/* .top-container {
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index:100;
+} */
+
+h1{
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 70px;
+  padding-top: 30px;
+}
+
+h3 {
+  color: #de4463;
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+table {
+  background-color: #d6d6d6;
+}
+
+a {
+  text-decoration: none;
+}
+
+#title {
+  background-color: #d6d6d6;
+  margin: 0px;
+}
+
+.shadow-hr {
+  border:none;
+  width: 100%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 0.1px solid #707070;
+  box-shadow: 0 20px 20px -20px #333;
+  margin-top: -50px;
+}
+
+.short-hr {
+  padding: 30px 0;
+  width: 80%;
+  border: none;
+  border-bottom: solid 0.5px #b3b3b3;
+}
+
+.profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.edu {
+  padding-top:25px;
+}
+
+.jobposition-background {
+  width: 100%;
+  height: 250px;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
+  margin: 0 auto;
+  /* margin:0; */
+  /* filter: blur(1px); */
+}
+
+.jobposition-content {
+  width: 70%;
+  padding: 0 50px;
+  height: 250px;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  text-align: center;
+  /* margin:0; */
+  /* filter: blur(1px); */
+}
+
+
+.copmanyDesc {
+  text-size: 150px;
+  /* filter: none; */
+  display: inline-block;
+  height:100%;
+  width: 500px;
+  margin: 35px auto;
+  opacity: 1;
+  text-align: left;
+}
+
+.companylogo {
+  width: 30%;
+  height:100%;
+  float:left;
+  margin-right: 50px;
+  background-size: contain;
+  opacity: 1;
+  display: inline-block;
+}
+
+
+.overlay {
+  background-color: black;
+  height: 100%;
+  width:100%;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#intro {
+  width: 100%;
+  text-align: left;
+}
+
+#uber {
+  background-image: url("./images/uber.png");
+  flex: end;
+}
+
+#disney {
+  background-image: url("./images/disney.png");
+  flex: start;
+}
+
+#drlogo {
+  background-image: url("./images/drlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
