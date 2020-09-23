@@ -7,24 +7,19 @@ body {
   text-align: center;
 }
 
-/* .top-container {
-  position: fixed;
-  width: 100%;
-  top:0;
-  z-index:100;
-} */
+.top-container {
+  background-color: #d6d6d6;
+}
 
 h1{
-  text-align: center;
   font-variant: small-caps;
   font-weight: bold;
   font-size: 70px;
   padding-top: 30px;
 }
 
-h3 {
+h2 {
   color: #de4463;
-  text-align: center;
   font-variant: small-caps;
   font-weight: bold;
   padding-top: 30px;
@@ -47,10 +42,8 @@ a {
   border:none;
   width: 100%;
   height: 50px;
-  margin-top: 0;
   border-bottom: 0.1px solid #707070;
   box-shadow: 0 20px 20px -20px #333;
-  margin-top: -50px;
 }
 
 .short-hr {
@@ -60,14 +53,38 @@ a {
   border-bottom: solid 0.5px #b3b3b3;
 }
 
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profilepic-container {
+}
+
+.description-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 0;
+  margin-left: 70px;
+}
+
+.description-container p {
+  margin: 7px 0;
+  text-align: left;
+}
+
 .profilepic {
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  margin: 20px 0;
   border-radius: 100%;
 }
 
 .edu {
   padding-top:25px;
+  /* background-image: linear-gradient(#d6d6d6, #f7f7f7, #d6d6d6); */
 }
 
 .jobposition-background {
@@ -79,8 +96,9 @@ a {
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
   margin: 0 auto;
+  backdrop-filter: opacity(60%);
   /* margin:0; */
-  /* filter: blur(1px); */
+  /* filter:  */
 }
 
 .jobposition-content {
@@ -89,7 +107,9 @@ a {
   height: 250px;
   color: white;
   text-shadow: 2px 2px 8px black;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   /* margin:0; */
   /* filter: blur(1px); */
 }
@@ -98,7 +118,7 @@ a {
 .copmanyDesc {
   text-size: 150px;
   /* filter: none; */
-  display: inline-block;
+  /* display: inline-block; */
   height:100%;
   width: 500px;
   margin: 35px auto;
@@ -113,37 +133,67 @@ a {
   margin-right: 50px;
   background-size: contain;
   opacity: 1;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 
 .overlay {
-  background-color: black;
   height: 100%;
   width:100%;
-  opacity: 0.6;
-  display: flex;
   justify-content: center;
-  flex-direction: row;
-}
-
-#intro {
-  width: 100%;
-  text-align: left;
+  display: flex;
+  /* background: black; */
+  backdrop-filter: blur(1px); */
 }
 
 #uber {
   background-image: url("./images/uber.png");
-  flex: end;
 }
 
 #disney {
   background-image: url("./images/disney.png");
-  flex: start;
+}
+
+#ghostery {
+  background-color: #5ab4e5;
+}
+
+#eth {
+  background-image: url("./images/eth.jpg");
+}
+
+#cliqz {
+  background-color: white;
+  color: black;
+}
+
+#cliqzlogo {
+  background-image: url("./images/cliqzlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#uberlogo {
+  background-image: url("./images/uberlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #drlogo {
   background-image: url("./images/drlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ethlogo {
+  background-image: url("./images/ethlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ghosterylogo {
+  background-image: url("./images/ghosterylogo.png");
+  border-radius: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }

@@ -12,33 +12,35 @@
 
     <div class="top-container">
       <h1 id=title>Felix Schmetz</h1>
-      <table cellspacing="20" id="intro">
-        <tr>
-          <td><img class="profilepic" src="images/felixandben.jpeg" alt="profile pic"></td>
-          <td>
-            <p>Software Engineer | MSc Machine Intelligence | Musician & Artist</p>
-            <p>ETH Zürich 👨🏻| Uber Technologies | Disney Research</p>
-            <p>This website was built with the sole purpose of refreshing my front-end dev skills.</p>
-            <p>
-              <a href="#edu">Education & Research</a>
-              <span> | </span>
-              <a href="#xp">Experience</a>
-              <span> | </span>
-              <a href="#">Portfolio</a>
-              <span> | </span>
-              <a href="contact.html">Contact</a>
-              <span> | </span>
-              <a href="https://www.linkedin.com/in/fschmetz">LinkedIn</a>
-            </p>
-          </td>
-        </tr>
-      </table>
+
+      <div class="profile">
+        <div class="profilepic-container">
+          <img class="profilepic" src="images/felixandben.jpeg" alt="profile pic">
+        </div>
+
+        <div class="description-container">
+          <p>Software Engineer | MSc Machine Intelligence | Musician & Artist</p>
+          <p>ETH Zürich 👨🏻| Uber Technologies | Disney Research</p>
+          <p>This website was built with the sole purpose of refreshing my front-end dev skills.</p>
+          <p>
+            <a href="#edu">Education & Research</a>
+            <span> | </span>
+            <a href="#xp">Experience</a>
+            <span> | </span>
+            <a href="#">Portfolio</a>
+            <span> | </span>
+            <a href="contact.html">Contact</a>
+            <span> | </span>
+            <a href="https://www.linkedin.com/in/fschmetz">LinkedIn</a>
+          </p>
+        </div>
+      </div>
 
       <hr class="shadow-hr">
     </div>
 
     <div class="edu" id="edu">
-      <h3>Education and Research</h3>
+      <h2>Education and Research</h2>
 
       <h4>Diplomas</h4>
 
@@ -55,25 +57,80 @@
 
 
 
-    <h3 id="xp">Experience</h3>
+    <h2 id="xp">Experience</h2>
 
-    <div class="jobposition-background" id="disney">
-      <div class="overlay">
+    <div class="job-section">
 
-        <div class="jobposition-content">
-          <div class="companylogo" id="drlogo"></div>
+      <div class="jobposition-background" id="uber">
+        <div class="overlay">
 
-          <div class="copmanyDesc">
-            <h4>Designed and built a system to puppeteer humanoid and non-humanoid virtual assets according to the 3D movement of an actor in a 2D video shot with a standard camera. Based on a marker-less motion tracker developed at DRZ. This formed my Bachelor’s thesis on “Live Puppeteering of a Directable Character using a Single RGB Camera”. Grade 5.75 out of 6.</h4>
+          <div class="jobposition-content">
+            <div class="companylogo" id="uberlogo"></div>
+
+            <div class="copmanyDesc">
+              <h4>Redesigned Uber’s Instant Payments service. Implemented backend from start to deployment. Communicated with stakeholders and teams across Uber for seamless integration. Fixed bugs across Uber platform.</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="jobposition-background" id="disney">
+        <div class="overlay">
+
+          <div class="jobposition-content">
+            <div class="companylogo" id="drlogo"></div>
+
+            <div class="copmanyDesc">
+              <h4>Designed and built a system to puppeteer humanoid and non-humanoid virtual assets according to the 3D movement of an actor in a 2D video shot with a standard camera. Based on a marker-less motion tracker developed at DRZ. This formed my Bachelor’s thesis on “Live Puppeteering of a Directable Character using a Single RGB Camera”. Grade 5.75 out of 6.</h4>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="jobposition-background" id="uber">
-      <div class="overlay">
+      <div class="jobposition-background" id="eth">
+        <div class="overlay">
+
+          <div class="jobposition-content">
+            <div class="companylogo" id="ethlogo"></div>
+
+            <div class="copmanyDesc">
+              <h4>Being a teaching assistant taught me to confidently lead large groups of people and effectively prepare individuals for upcoming tasks such as midterms and general exams. The job as TA included tasks such as creating new teaching materials as well as creating and grading assignments and finals. In my time as TA I taught Introduction to Programming twice (Fall 2017 and 2018) and Parallel Programming (Spring 2018).</h4>
+            </div>
+          </div>
+        </div>
 
       </div>
+
+      <div class="jobposition-background" id="ghostery">
+        <div class="overlay">
+
+          <div class="jobposition-content">
+            <div class="companylogo" id="ghosterylogo"></div>
+
+            <div class="copmanyDesc">
+              <h4>While working at Ghostery, I was put on various projects which were all in different programming languages. My main two projects in this short internship were a tool to check whether the Ghostery extension would break webpages and updates to the Ghostery install screen.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jobposition-background" id="cliqz">
+        <div class="overlay">
+
+          <div class="jobposition-content">
+            <div class="companylogo" id="cliqzlogo"></div>
+
+            <div class="copmanyDesc">
+              <h4>From June 2016 until August 2016 I worked as a returning intern until converting to a working student for the following year. During my time at Cliqz I built an interface visible to and used by all Cliqz users on a daily basis. This was in my opinion a very pleasant introduction to Full Stack development. The development of an additional interface was partly in cooperation with Mozilla Firefox. This interface was visible to and used daily by all Cliqz users as well as a considerable amount of Mozilla Firefox users.</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
+
   </body>
 </html>
