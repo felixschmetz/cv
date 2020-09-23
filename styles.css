@@ -9,13 +9,17 @@ body {
 
 .top-container {
   /* background-color: #d6d6d6; */
-  background-image: url("./images/background-rough.JPG");
+  background-image: url("./images/background-nyc.jpeg");
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
   /* backdrop-filter: blur(5px); */
+  text-shadow: 4px 4px 8px black;
+
+  font-variant: small-caps;
 
   color: white;
+  /* color: #ffca8a; */
 }
 
 .top-container p {
@@ -26,8 +30,6 @@ body {
 a {
   color: white;
   text-decoration: none;
-  text-shadow: 2px 2px 40px black;
-
 }
 
 h1 {
@@ -36,6 +38,7 @@ h1 {
   font-size: 70px;
   padding-top: 30px;
 }
+
 
 .section-title {
   color: #de4463;
@@ -52,9 +55,9 @@ h3 {
 
 .position-title {
   margin: 0;
-  color: white;
-  text-shadow: 2px 2px 40px black;
-  font-variant: normal;
+  color: #de4463;
+  font-variant: small-caps;
+  font-weight: bold;
 }
 
 #title {
@@ -75,10 +78,10 @@ h3 {
   border-bottom: 0.1px solid #707070;
   box-shadow: 0 20px 20px -20px #333;
 }
-#light-hr {
+/* #light-hr {
   border-bottom: 0.1px solid white;
   margin: 0px;
-}
+} */
 
 .shadow-hr-top {
   border:none;
@@ -102,7 +105,7 @@ h3 {
 .light-hr {
   margin: 0;
   border: none;
-  width: 80%;
+  width: 100%;
   border-bottom: solid 0.5px white;
 }
 
@@ -117,6 +120,7 @@ h3 {
 
 .job-section {
   margin-top: 50px;
+  background-color: #f7f7f7;
 }
 
 .description-container {
@@ -134,7 +138,7 @@ h3 {
 }
 
 .profilepic {
-  width: 170px;
+  width: 200px;
   margin: 20px 0;
   border-radius: 100%;
 }
@@ -145,81 +149,56 @@ h3 {
 }
 
 .jobposition-background {
-  width: 100%;
+  width: 90%;
   height: 280px;
-  color: white;
-  text-shadow: 2px 2px 8px black;
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   background-position: right, left;
-  margin: 0 auto;
-  backdrop-filter: opacity(60%);
+  margin: 10px auto;
 }
 
 .jobposition-content {
-  width: 100%;
+  width: 90%;
   padding: 0 50px;
   height: 280px;
-  color: white;
-  text-shadow: 2px 2px 8px black;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
-
-  /* margin:0; */
-  /* filter: blur(1px); */
+  line-height: 23px;
+  color: #404040;
 }
 
 
 .copmanyDesc {
   text-size: 150px;
-  /* filter: none; */
-  /* display: inline-block; */
   height: auto;
   width: 650px;
   margin: 35px 0 35px 70px;
-  opacity: 1;
   text-align: left;
-}
-
-.left-panel {
-  width:30%;
-  height:100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-
+  background-color: #f7f7f7;
+  color: #404040;
+  padding: 10px 20px;
 }
 
 .companylogo {
   width: 300px;
   height:100%;
   float:left;
-  /* margin-right: 50px; */
   background-size: contain;
   opacity: 1;
-  /* display: inline-block; */
   filter: drop-shadow(0 0 10px #222);
-
 }
-
-.date {
-}
-
 
 .overlay {
   height: 100%;
   width:100%;
   justify-content: center;
   display: flex;
-  /* background: black; */
-  backdrop-filter: blur(1px); */
+  backdrop-filter: blur(1px);
 }
 
 .overlay:hover {
-  backdrop-filter: blur(5px); */
+  backdrop-filter: blur(5px);
 }
 
 #uber {
