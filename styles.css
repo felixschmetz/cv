@@ -10,7 +10,10 @@ body {
 .top-container {
   /* background-color: #d6d6d6; */
   background-image: url("./images/background-rough.JPG");
-  backdrop-filter: blur(5px);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left;
+  /* backdrop-filter: blur(5px); */
 
   color: white;
 }
@@ -52,6 +55,12 @@ h3 {
   margin: 0px;
 }
 
+.vertical-bar {
+  border-left: 1px solid white;
+  height: 200px;
+  margin: 25px 0 25px 50px;
+}
+
 .shadow-hr {
   border:none;
   width: 100%;
@@ -83,6 +92,13 @@ h3 {
   border-bottom: solid 0.5px #b3b3b3;
 }
 
+.light-hr {
+  margin: 0;
+  border: none;
+  width: 80%;
+  border-bottom: solid 0.5px white;
+}
+
 .profile {
   display: flex;
   flex-direction: row;
@@ -102,7 +118,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   padding: 50px 0;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .description-container p {
@@ -136,7 +152,7 @@ h3 {
 }
 
 .jobposition-content {
-  width: 70%;
+  width: 100%;
   padding: 0 50px;
   height: 250px;
   color: white;
@@ -144,6 +160,8 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
+
   /* margin:0; */
   /* filter: blur(1px); */
 }
@@ -153,23 +171,36 @@ h3 {
   text-size: 150px;
   /* filter: none; */
   /* display: inline-block; */
-  height:100%;
-  width: 500px;
-  margin: 35px auto;
+  height: auto;
+  width: 550px;
+  margin: 35px 0 35px 70px;
   opacity: 1;
   text-align: left;
 }
 
+.left-panel {
+  width:30%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+}
+
 .companylogo {
-  width: 30%;
+  width: 300px;
   height:100%;
   float:left;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   background-size: contain;
   opacity: 1;
   /* display: inline-block; */
   filter: drop-shadow(0 0 10px #222);
 
+}
+
+.date {
 }
 
 
@@ -190,13 +221,14 @@ h3 {
   background-image: url("./images/disney.png");
 }
 
-#ghostery {
-  background-color: #5ab4e5;
-}
-
 #eth {
   background-image: url("./images/eth.jpg");
 }
+
+#ghostery {
+  background-image: url("./images/ghostery.jpg");
+}
+
 
 #cliqz {
   background-color: white;
